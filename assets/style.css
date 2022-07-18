@@ -69,3 +69,14 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.btn {
+  position: relative;
+  left: 33%;
+  width: 60px;
+}
+
+.btn::after {
+  content: url("./2639912_save_icon.svg");
+  filter: invert(100%);
+}
